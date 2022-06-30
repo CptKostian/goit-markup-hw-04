@@ -162,7 +162,7 @@ body {
 
 .flex-footer {
   display: flex;
-  gap: 70px;
+  align-items: baseline;
 }
 
 .flex-footer .social-link {
@@ -200,6 +200,10 @@ body {
 .address-info:hover,
 .address-info:focus {
   color: var(--accent-color);
+}
+
+.join {
+  margin-left: 70px;
 }
 
 .join-title {
@@ -268,8 +272,11 @@ body {
 
 .advantages-icon {
   height: 120px;
-  padding: 25px 100px;
   margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   background-color: var(--background-ourteam-color);
   border-radius: 4px;
@@ -399,8 +406,9 @@ body {
   width: 100%;
   height: 100%;
 
-  display: block;
-  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   color: var(--social-icon-color);
 
@@ -453,6 +461,7 @@ body {
 .example-button:hover,
 .example-button:focus {
   background: var(--accent-color);
+  color: var(--background-primary-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
